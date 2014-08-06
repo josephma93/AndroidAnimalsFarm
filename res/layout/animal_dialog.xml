@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" >
+
+        <Button
+            android:id="@+id/play_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Animal sound" />
+
+        <Button
+            android:id="@+id/spell_it"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How do I spell it" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/spelled_name"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Type what you hear..." >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/get_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get my score!" />
+
+</LinearLayout>

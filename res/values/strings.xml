@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kids World</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_animals">AnimalsActivity</string>
+    <string name="instructions">Select an animal to\nlearn more about it</string>
+    <string name="title_activity_animal_details">AnimalDetailsActivity</string>
+
+</resources>
